@@ -47,15 +47,15 @@ We would me more than happy to help you!!</h3>
 <script type="text/javascript">
     window.onload = function(){
         window.displayImgCount = 0;
-        function cycleImage(){
+        function loopImage(){
             if (displayImgCount !== 0) {
                 document.getElementById("img" + displayImgCount).style.display = "none";
             }
             displayImgCount = displayImgCount === 3 ? 1 : displayImgCount + 1;
             document.getElementById("img" + displayImgCount).style.display = "block";
-            setTimeout(cycleImage, 1000);
+            setTimeout(cycleImage, 2000);
         }
-        cycleImage();
+        loopImage();
     }
 </script>
 </html>
