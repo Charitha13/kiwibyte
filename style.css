@@ -73,9 +73,12 @@ body{
   #imagesfloat{
       margin-left: 10%;
   }
-  /* #img1{
+  #img1{
       width:70%;
   }
   #img2{
-    width:80%; */
-/* } */
+    width:70%;
+}
+#img3{
+    width:70%;
+}
