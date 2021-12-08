@@ -82,3 +82,9 @@ body{
 #img3{
     width:90%;
 }
+
+@media screen and (max-width: 500px){
+    #contactme{
+        display: none;
+    }
+}
